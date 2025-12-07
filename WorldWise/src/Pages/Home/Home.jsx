@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Homepage.module.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
+        <Link to="/product" className="cta"> start tracking now  </Link>
       </section>
     </main>
   );
